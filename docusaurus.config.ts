@@ -98,6 +98,12 @@ const config: Config = {
           position: 'left',
           label: 'Building',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'processesSidebar',
+          position: 'left',
+          label: 'Processes',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/frankmax-com/AINEFF',
@@ -116,6 +122,7 @@ const config: Config = {
             {label: 'Architecture', to: '/docs/architecture/overview'},
             {label: 'Systems Reference', to: '/docs/systems/overview'},
             {label: 'Building AINEFF', to: '/docs/building/overview'},
+            {label: 'SOPs & Processes', to: '/docs/processes/overview'},
           ],
         },
         {

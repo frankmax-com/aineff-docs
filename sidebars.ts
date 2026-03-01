@@ -208,6 +208,44 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+
+  processesSidebar: [
+    {
+      type: 'category',
+      label: 'Processes & SOPs',
+      items: [
+        'processes/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Standard Operating Procedures',
+      items: [
+        'processes/sop-aine-creation',
+        'processes/sop-aine-death',
+        'processes/sop-frankmax-engagement',
+        'processes/sop-authority-decay',
+        'processes/sop-incident-response',
+        'processes/sop-levelupmax-certification',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'BPMN Process Documentation',
+      items: [
+        'processes/bpmn-aine-lifecycle',
+        'processes/bpmn-venture-cell',
+        'processes/bpmn-orf-obligation',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Operational Runbooks',
+      items: [
+        'processes/runbook-k8s-operations',
+      ],
+    },
+  ],
 };
 
 export default sidebars;
