@@ -1,0 +1,114 @@
+/**
+ * AINEFF Documentation Theme
+ * Navy #1E2761, Ice Blue #CADCFC, Accent Green #00D4AA
+ */
+
+:root {
+  --ifm-color-primary: #00D4AA;
+  --ifm-color-primary-dark: #00BF99;
+  --ifm-color-primary-darker: #00B490;
+  --ifm-color-primary-darkest: #009477;
+  --ifm-color-primary-light: #00E9BB;
+  --ifm-color-primary-lighter: #00F4C4;
+  --ifm-color-primary-lightest: #1AFFCF;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', system-ui, sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00D4AA;
+  --ifm-color-primary-dark: #00BF99;
+  --ifm-color-primary-darker: #00B490;
+  --ifm-color-primary-darkest: #009477;
+  --ifm-color-primary-light: #00E9BB;
+  --ifm-color-primary-lighter: #00F4C4;
+  --ifm-color-primary-lightest: #1AFFCF;
+  --ifm-background-color: #1E2761;
+  --ifm-background-surface-color: #252d6a;
+  --ifm-navbar-background-color: #161d4e;
+  --ifm-footer-background-color: #0f1438;
+  --ifm-color-emphasis-300: #CADCFC;
+  --ifm-font-color-base: #CADCFC;
+  --ifm-heading-color: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 212, 170, 0.15);
+}
+
+/* Hero section styling */
+.hero--primary {
+  background: linear-gradient(135deg, #1E2761 0%, #161d4e 50%, #0f1438 100%);
+  color: #CADCFC;
+}
+
+[data-theme='dark'] .hero--primary {
+  background: linear-gradient(135deg, #1E2761 0%, #161d4e 50%, #0f1438 100%);
+}
+
+.hero__title {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero__subtitle {
+  color: #CADCFC;
+}
+
+/* Sidebar category labels */
+.menu__link {
+  font-weight: 500;
+}
+
+/* Table styling in dark mode */
+[data-theme='dark'] table {
+  border-color: #2d3680;
+}
+
+[data-theme='dark'] th {
+  background-color: #252d6a;
+}
+
+[data-theme='dark'] tr:nth-child(even) {
+  background-color: rgba(202, 220, 252, 0.03);
+}
+
+/* Code blocks */
+[data-theme='dark'] .prism-code {
+  background-color: #0f1438 !important;
+}
+
+/* Admonitions */
+[data-theme='dark'] .alert {
+  border-left-width: 4px;
+}
+
+/* Stats cards on homepage */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  background: rgba(202, 220, 252, 0.05);
+  border: 1px solid rgba(202, 220, 252, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stat-number {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00D4AA;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #CADCFC;
+  margin-top: 0.5rem;
+}
