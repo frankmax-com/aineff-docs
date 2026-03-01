@@ -194,6 +194,20 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+  buildingSidebar: [
+    {
+      type: 'category',
+      label: 'Building AINEFF',
+      items: [
+        'building/overview',
+        'building/implementation-approach',
+        'building/agent-build-manifest',
+        'building/system-contracts',
+        'building/oss-discovery-prompt',
+        'building/agentcoders-requirements',
+      ],
+    },
+  ],
 };
 
 export default sidebars;

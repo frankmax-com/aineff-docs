@@ -92,6 +92,12 @@ const config: Config = {
           position: 'left',
           label: 'Operations',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'buildingSidebar',
+          position: 'left',
+          label: 'Building',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/frankmax-com/AINEFF',
@@ -109,6 +115,7 @@ const config: Config = {
             {label: 'Getting Started', to: '/docs/getting-started/introduction'},
             {label: 'Architecture', to: '/docs/architecture/overview'},
             {label: 'Systems Reference', to: '/docs/systems/overview'},
+            {label: 'Building AINEFF', to: '/docs/building/overview'},
           ],
         },
         {
